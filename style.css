@@ -1,0 +1,117 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1B4965;
+    color: #BEE9E8;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 50px 0 0 0;
+    width: 600px;
+    height: 291px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    line-height: 0%;
+}
+header h4, p, h3{
+    display: inline;
+    padding-left: 15px;
+}
+header h4{
+    font-size: 64px;
+    font-weight: 100;
+}
+header p{
+    font-size: 48px;
+    font-weight: 300;
+}
+header h3{
+    font-size: 96px;
+    font-weight: 900;
+}
+header h1{
+    font-size: 144px;
+    font-weight: 400;
+}
+header h1 span{
+    font-size: 96px;
+    font-weight: 300;
+}
+.input{
+    width: 300px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    flex-direction: row;
+}
+.input input{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    padding: 5px 0 2px 0;
+    border:none;
+    background: none;
+    opacity: 30%;
+    border-bottom: solid 1px #BEE9E8;
+    color: #BEE9E8;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.input input:focus{
+    opacity: 100%;
+    background: none;
+    border-bottom: solid 1px #BEE9E8;
+    border-top: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 100;
+
+}
+.input input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: #1B4965;
+    color: #BEE9E8;
+}
+.input label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.button{
+    width: 350px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+}
+.button input{
+    width: 350px;
+    height: 80px;
+    background-color: #17384D;
+    margin: 0 auto 0 auto;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #BEE9E8;
+    cursor: pointer;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.button input:focus{
+    border: none;
+    outline: none;
+}
+.button input:hover{
+    background-color: #246B96;
+}
