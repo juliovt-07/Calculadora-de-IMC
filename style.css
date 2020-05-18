@@ -115,3 +115,36 @@ header h1 span{
 .button input:hover{
     background-color: #246B96;
 }
+@media screen and (max-width:618px){
+    header h4{font-size: 54px;}
+    header p{font-size: 38px;}
+    header h3{font-size: 86px;}
+    header h1{font-size: 134px;}
+    header h1 span{font-size: 86px;}
+    header{max-width: 500px;}
+}
+@media screen and (max-width:516px){
+    header h4{font-size: 44px;}
+    header p{font-size: 28px;}
+    header h3{font-size: 76px;}
+    header h1{font-size: 124px;}
+    header h1 span{font-size: 76px;}
+    header{max-width: 400px;}
+}
+@media screen and (max-width:438px){
+    header h4{font-size: 34px;}
+    header p{font-size: 18px;}
+    header h3{font-size: 66px;}
+    header h1{font-size: 114px;}
+    header h1 span{font-size: 66px;}
+    header{max-width: 350px;margin-bottom: -80px;}
+}
+@media screen and (max-width:346px){
+    header h4{font-size: 30px;}
+    header p{font-size: 14px;}
+    header h3{font-size: 62px;}
+    header h1{font-size: 110px;}
+    header h1 span{font-size: 62px;}
+    header{max-width: 300px;margin-bottom: -80px;}
+    .button input{max-width: 300px;}
+}
