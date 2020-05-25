@@ -8,5 +8,4 @@
 #
 ### JavaScript
 
-![alt text](https://raw.githubusercontent.com/juliovt-07/
-Calculadora-de-IMC/master/pesoideal.png)
+![alt text](https://raw.githubusercontent.com/juliovt-07/Calculadora-de-IMC/master/pesoideal.png)
