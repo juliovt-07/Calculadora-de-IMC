@@ -2,9 +2,9 @@
 #
 ## https://juliovt-07.github.io/Calculadora-de-IMC/
 #
-### HTML
+### HTML 5
 #
-### CSS
+### CSS 3
 #
 ### JavaScript
 
